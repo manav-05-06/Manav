@@ -20,7 +20,7 @@ function App() {
 
 
   return (
-<div className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans">
+<div className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300 font-sans ">
       <Navbar dark={darkMode} setDark={setDarkMode} />
       <Hero />
       <About />

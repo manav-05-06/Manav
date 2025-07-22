@@ -6,7 +6,7 @@ function Hero() {
         <span>Software Developer</span>
         
       </p>
-      <a href="#projects" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">
+      <a href="#projects" className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition">
         View My Work
       </a>
     </section>
