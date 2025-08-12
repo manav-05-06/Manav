@@ -4,12 +4,10 @@ function Footer() {
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
-    // Set interval to update time every second
     const interval = setInterval(() => {
       setTime(new Date());
     }, 1000);
 
-    // Clear interval when component unmounts
     return () => clearInterval(interval);
   }, []);
 
