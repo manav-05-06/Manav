@@ -1,5 +1,12 @@
 const projects = [
   {
+    title: "ChatJi",
+    stack: ["React.js", "Express", "API"],
+    description: "An AI-powered chat application with authentication, conversation history, and dynamic formatted responses, built with React.js, Node.js, and Gemini API.",
+    repo: "https://github.com/manav-05-06/ChatJi",
+    live: "https://chat-ji.vercel.app/",
+  },
+  {
     title: "Random Photo Generator",
     stack: ["HTML", "CSS", "JavaScript"],
     description: " A web app that fetches and displays a new high-quality random image on each click using the Unsplash API",
